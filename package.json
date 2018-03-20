@@ -1,13 +1,13 @@
 {
   "name": "node-red-contrib-qrdecode",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "node for decoding qr code from an image file",
   "main": "qrdecode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "schaturvedi@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "qrcode-reader": "latest",
     "jimp": "latest",
@@ -15,7 +15,7 @@
   },
   "node-red": {
     "nodes": {
-      "lower-case": "qrdecode.js"
+      "qrdecode": "qrdecode.js"
     }
   }
 }

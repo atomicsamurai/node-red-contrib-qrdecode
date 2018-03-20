@@ -33,6 +33,6 @@ module.exports = function (RED) {
                 qr.decode(image.bitmap);
             });
         });
-        RED.nodes.registerType("qrdecode", QRDecodeNode);
     }
+    RED.nodes.registerType("qrdecode", QRDecodeNode);
 }
