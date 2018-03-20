@@ -7,6 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "schaturvedi@gmail.com",
+  "keywords": [
+    "node-red",
+    "qrcode",
+    "qr-code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandman0/node-red-contrib-qrdecode.git"
+  },
   "license": "MIT",
   "dependencies": {
     "qrcode-reader": "latest",
