@@ -27,7 +27,7 @@ module.exports = function (RED) {
                                 msg.payload = {status : 1, message: `error when decoding image: ${err}`};
                                 node.send(msg);
                             } else {
-                                console.log(value.result);
+                                node.debug(value.result);
                                 msg.payload = {status : 0, message: `success`, value: `${value.result}`};
                                 //msg.payload = value.result;
                                 node.send(msg);
