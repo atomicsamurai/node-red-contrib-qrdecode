@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-qrdecode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node for decoding qr code from an image file",
   "main": "qrdecode.js",
   "scripts": {
