@@ -7,7 +7,7 @@ Run the following command in the root directory of your Node-RED install or home
 
         npm install node-red-contrib-qrdecode
 
-The node takes the full (absolute) path of the image file as an input and then sets the message payload with the decoded content of the QR code contained in the image.
+Input to the node is a [buffer](https://nodejs.org/docs/latest-v8.x/api/buffer.html) with image data. It outputs the message payload with decoded value of the QR code contained in the image.
 
 If it does not detect or can not decode the QR code, it returns an error message in the message payload.
 
